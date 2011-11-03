@@ -1,3 +1,9 @@
+# revision 16189
+# category Package
+# catalog-ctan /macros/latex/contrib/getfiledate
+# catalog-date 2009-11-26 14:59:55 +0100
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-getfiledate
 Version:	1.2
 Release:	1
@@ -41,6 +47,7 @@ user may specify how the date is to be presented.
 %doc %{_texmfdistdir}/doc/latex/getfiledate/README
 %doc %{_texmfdistdir}/doc/latex/getfiledate/getfiledate-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/getfiledate/getfiledate-guide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ user may specify how the date is to be presented.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
