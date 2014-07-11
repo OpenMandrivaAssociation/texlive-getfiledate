@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-getfiledate
 Version:	1.2
-Release:	7
+Release:	8
 Summary:	Find the date of last modification of a file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/getfiledate
