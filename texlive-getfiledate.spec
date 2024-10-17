@@ -3,7 +3,7 @@ Version:	16189
 Release:	2
 Summary:	Find the date of last modification of a file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/getfiledate
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/getfiledate
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getfiledate.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getfiledate.doc.r%{version}.tar.xz
